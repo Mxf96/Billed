@@ -2,3 +2,4 @@ live-server
 npm test -- Bills
 npm test -- Login
 npm test -- NewBill
+npm test -- Dashboard
