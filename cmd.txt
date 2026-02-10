@@ -3,3 +3,5 @@ npm test -- Bills
 npm test -- Login
 npm test -- NewBill
 npm test -- Dashboard
+npm test
+npm test -- --coverage
