@@ -40,6 +40,7 @@ describe("I am connected as an employee", () => {
 
       expect(windowIcon.classList.contains("active-icon")).toBeTruthy();
     });
+    
     test("bills should be ordered from earliest to latest", () => {
       document.body.innerHTML = BillsUI({ data: bills });
       const dates = screen
